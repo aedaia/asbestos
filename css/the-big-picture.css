@@ -1,0 +1,186 @@
+
+body {
+/*  background: url('http://2uwp1y1r9uts30evdq34yeb1-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/Sydne-Style-shows-where-to-get-affordable-white-abstract-paintings-for-home-decor-ideas.jpg') no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    height: 100%;
+}
+
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+main {
+
+/*  background: white;*/
+  height: 100vh;
+  width: 100%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+font-family: Sofia pro, sans-serif;
+letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	
+  float: right;
+  color: black;
+  padding: 2% 4% 1% 1% ;
+  text-decoration: none;
+	text-align: right;
+  font-size: 60%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: gray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
+
+.topnavblack {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnavblack a {
+font-family: Sofia pro, sans-serif;
+letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bolder;
+  float: right;
+  color: white;
+  padding: 2% 4% 1% 1% ;
+  text-decoration: none;
+	text-align: right;
+  font-size: 60%;
+}
+
+/* Change the color of links on hover */
+.topnavblack a:hover {
+  color: gray;
+}
+
+/* Add a color to the active/current link */
+.topnavblack a.active {
+  color: white;
+}
+
+
+.studentname {
+	font-family: Sofia pro, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: black;
+    padding: 2% 4% 2% 3% ;
+    text-decoration: none;
+    text-align: left;
+	position: absolute;
+	bottom: 0px;
+ 
+  font-size: 60%;
+}
+
+/* */
+
+.row {
+	display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+responsive stuff */
+.padding {
+	margin-left: 20%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+.navbar {
+	
+}
+
+
+
+
+
+/*
+.custom-toggler.navbar-toggler { 
+    border-color: lightgreen; 
+} 
+*/
+
+.center-block {
+	
+    display: block;
+    margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+    margin-right: auto; 
+	padding-bottom: 10%;
+
+}

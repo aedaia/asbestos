@@ -24,6 +24,27 @@ html {
   transform: translateY(-50%);
 }
 
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+/*	object-fit: cover;*/
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+	
+}
+
+
+
 main {
 
 /*  background: white;*/
@@ -62,7 +83,7 @@ letter-spacing: 2px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: gray;
+  color: rgb(0,0,0, 0.5);
 }
 
 /* Add a color to the active/current link */
@@ -108,10 +129,24 @@ letter-spacing: 2px;
     padding: 2% 4% 2% 3% ;
     text-decoration: none;
     text-align: left;
-	position: absolute;
 	bottom: 0px;
- 
   font-size: 60%;
+	position: absolute;
+	
+}
+
+
+.studentname2 {
+	font-family: Sofia pro, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: black;
+    padding: 2% 4% 2% 3% ;
+    text-decoration: none;
+    text-align: center;
+    font-size: 60%;
+	
 }
 
 /* */

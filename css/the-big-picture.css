@@ -74,7 +74,7 @@ letter-spacing: 2px;
 	font-weight: bolder;
 	
   float: right;
-  color: black;
+  color: white;
   padding: 2% 4% 1% 1% ;
   text-decoration: none;
 	text-align: right;
@@ -83,12 +83,12 @@ letter-spacing: 2px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: rgb(0,0,0, 0.5);
+  color: rgb(255,255,255, 0.5);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  color: black;
+  color: white;
 }
 
 .topnavblack {
@@ -119,6 +119,35 @@ letter-spacing: 2px;
   color: white;
 }
 
+
+.topnav2 {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav2 a {
+font-family: Sofia pro, sans-serif;
+letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	
+  float: right;
+  color: black;
+  padding: 2% 4% 1% 1% ;
+  text-decoration: none;
+	text-align: right;
+  font-size: 60%;
+}
+
+/* Change the color of links on hover */
+.topnav2 a:hover {
+  color: rgb(0,0,0, 0.5);
+}
+
+/* Add a color to the active/current link */
+.topnav2 a.active {
+  color: black;
+}
 
 .studentname {
 	font-family: Sofia pro, sans-serif;

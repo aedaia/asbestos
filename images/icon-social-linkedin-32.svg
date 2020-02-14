@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24.1" viewBox="0 0 24 24.1">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24.1" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="icon_color" data-name="icon color" d="M13.4,24.1h-5V7.9h4.8v2.3h.1a5,5,0,0,1,4.391-2.61c.1,0,.207,0,.309.01,2.335,0,3.93.716,4.875,2.188C23.643,10.982,24,12.7,24,15.2V24H19V16.2c0-1.871,0-4.2-2.6-4.2-2.643,0-3,2.073-3,4.1v8Zm-8-.1H.4V7.9h5V24ZM2.9,5.8a2.9,2.9,0,1,1,2.051-.849A2.9,2.9,0,0,1,2.9,5.8Z" transform="translate(4 4)"/>
+    </clipPath>
+  </defs>
+  <g id="icon_social_linkedin_32" data-name="icon/social/linkedin/32" clip-path="url(#clip-path)">
+    <path id="icon_color-2" data-name="icon color" d="M13.4,24.1h-5V7.9h4.8v2.3h.1a5,5,0,0,1,4.391-2.61c.1,0,.207,0,.309.01,2.335,0,3.93.716,4.875,2.188C23.643,10.982,24,12.7,24,15.2V24H19V16.2c0-1.871,0-4.2-2.6-4.2-2.643,0-3,2.073-3,4.1v8Zm-8-.1H.4V7.9h5V24ZM2.9,5.8a2.9,2.9,0,1,1,2.051-.849A2.9,2.9,0,0,1,2.9,5.8Z" transform="translate(0 0)"/>
+  </g>
+</svg>

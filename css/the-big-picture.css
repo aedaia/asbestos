@@ -68,7 +68,7 @@ main {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-font-family: Sofia pro, sans-serif;
+font-family: Open sans, sans-serif;
 letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bolder;
@@ -78,8 +78,10 @@ letter-spacing: 2px;
   padding: 2% 4% 1% 1% ;
   text-decoration: none;
 	text-align: right;
-  font-size: 60%;
+  font-size: 65%;
 }
+
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -97,7 +99,7 @@ letter-spacing: 2px;
 
 /* Style the links inside the navigation bar */
 .topnavblack a {
-font-family: Sofia pro, sans-serif;
+font-family: Open sans, sans-serif;
 letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bolder;
@@ -106,7 +108,7 @@ letter-spacing: 2px;
   padding: 2% 4% 1% 1% ;
   text-decoration: none;
 	text-align: right;
-  font-size: 60%;
+  font-size: 65%;
 }
 
 /* Change the color of links on hover */
@@ -126,7 +128,7 @@ letter-spacing: 2px;
 
 /* Style the links inside the navigation bar */
 .topnav2 a {
-font-family: Sofia pro, sans-serif;
+font-family: Open sans, sans-serif;
 letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bolder;
@@ -136,7 +138,7 @@ letter-spacing: 2px;
   padding: 2% 4% 1% 1% ;
   text-decoration: none;
 	text-align: right;
-  font-size: 60%;
+  font-size: 65%;
 }
 
 /* Change the color of links on hover */
@@ -206,13 +208,42 @@ responsive stuff */
 	margin-left: 20%;
 }
 
+h1{
+	font-family: Open Sans;
+	font-weight:700;
+	font-size: 50px;
+}
+
+p{
+	font-family: Open Sans;
+	font-weight: 100;
+	font-size: 18px;
+	padding-bottom: 18px;
+	
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
+	
+	
+h1{
+	font-family: Open Sans;
+	font-weight:700;
+	font-size: 35px;
 }
+
+p{
+	font-family: Open Sans;
+	font-weight: 100;
+	font-size: 15px;
+	padding-bottom: 12px;
+	
+}
+}
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -220,13 +251,24 @@ responsive stuff */
     flex: 100%;
     max-width: 100%;
   }
+	
+h1{
+	font-family: Open Sans;
+	font-weight:700;
+	font-size: 25px;
 }
 
-
-
-.navbar {
+p{
+	font-family: Open Sans;
+	font-weight: 100;
+	font-size: 12px;
+	padding-bottom: 10px;
 	
 }
+}
+
+
+
 
 
 
@@ -247,4 +289,17 @@ responsive stuff */
     margin-right: auto; 
 	padding-bottom: 10%;
 
+}
+
+.imagesIS {
+	background-color: aqua;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	width:48%;
+	left: 0;
+}
+
+.socials {
+	padding-bottom: 30px;
 }

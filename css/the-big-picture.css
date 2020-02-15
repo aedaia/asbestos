@@ -160,9 +160,9 @@ font-family: Open sans, sans-serif;
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0;
 }
 
 .column img {
@@ -276,3 +276,52 @@ p{
 .socials {
 	padding-bottom: 30px;
 }
+
+
+.container {
+			  position: relative;
+			  width: 100%;
+				padding: 0;
+			}
+
+			.image {
+/*			  width: 100%;*/
+			  	
+			}
+
+			.overlay {
+			  position: absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .2s ease;
+			  background-color: rgba(6,6,6,0.5);
+			}
+
+			.container:hover .overlay {
+			  opacity: 1;
+				cursor: crosshair;
+			}
+
+			.text {
+			  color: white;
+			  font-size: 20px;
+			  font-family: Open sans, sans-serif;
+			  letter-spacing: 1px;
+	          text-transform: uppercase;
+	          font-weight: bolder;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  -webkit-transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%);
+			  transform: translate(-50%, -50%);
+			  text-align: center;
+			}
+			
+			
+		</style>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.965" height="24.018" viewBox="0 0 29.965 24.018">
+  <g id="Arrow_small_white" data-name="Arrow small white" transform="translate(0 1.768)">
+    <line id="Line_2" data-name="Line 2" x1="25.452" transform="translate(0 9.992)" fill="none" stroke="#000" stroke-width="5"/>
+    <line id="Line_4" data-name="Line 4" x1="16.968" transform="translate(16.199 0) rotate(45)" fill="none" stroke="#000" stroke-width="5"/>
+    <line id="Line_5" data-name="Line 5" x1="16.968" transform="translate(16.199 20.482) rotate(-45)" fill="none" stroke="#000" stroke-width="5"/>
+  </g>
+</svg>

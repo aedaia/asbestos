@@ -1,3 +1,8 @@
+html, body{
+	
+	 cursor: cell;
+}
+
 
 body {
 /*  background: url('http://2uwp1y1r9uts30evdq34yeb1-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/Sydne-Style-shows-where-to-get-affordable-white-abstract-paintings-for-home-decor-ideas.jpg') no-repeat center center fixed;*/
@@ -8,11 +13,13 @@ body {
   min-height: 100%;
     margin: 0;
     padding: 0;
+	
 
 }
 
 html {
     height: 100%;
+	
 }
 
 .parent {
@@ -171,6 +178,19 @@ font-family: Open sans, sans-serif;
   width: 100%;
 }
 
+.column2 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 responsive stuff */
@@ -179,14 +199,14 @@ responsive stuff */
 }
 
 h1{
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight:700;
 	font-size: 45px;
 	
 }
 
 p{
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight: 100;
 	font-size: 16px;
 	padding-bottom: 18px;
@@ -199,15 +219,21 @@ p{
     max-width: 50%;
   }
 	
+	.column2 {
+    flex: 50%;
+    max-width: 50%;
+  }
+	
+	
 	
 h1{
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight:700;
 	font-size: 35px;
 }
 
 p{
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight: 100;
 	font-size: 15px;
 	padding-bottom: 12px;
@@ -223,15 +249,20 @@ p{
     max-width: 100%;
   }
 	
+	.column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+	
 h1{
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight:700;
 	font-size: 25px;
 	
 }
 
 p{
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 	font-weight: 100;
 	font-size: 12px;
 	padding-bottom: 10px;
@@ -304,7 +335,7 @@ p{
 
 			.container:hover .overlay {
 			  opacity: 1;
-				cursor: crosshair;
+/*				cursor: crosshair;*/
 			}
 
 			.text {

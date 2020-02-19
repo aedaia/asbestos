@@ -3,6 +3,38 @@ html, body{
 	 cursor: cell;
 }
 
+/* stop highlighting of text + icons */
+html
+{
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+
+/* Rules below not implemented in browsers yet */
+-o-user-select: none;
+user-select: none;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+    color: none;
+    background: none;
+}
+
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}
+
 
 body {
 /*  background: url('http://2uwp1y1r9uts30evdq34yeb1-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/Sydne-Style-shows-where-to-get-affordable-white-abstract-paintings-for-home-decor-ideas.jpg') no-repeat center center fixed;*/
@@ -20,6 +52,21 @@ body {
 html {
     height: 100%;
 	
+}
+.center-block {
+    display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-bottom: 10%;
+}
+
+.center-block-btn {
+	
+    display: block;
+    margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+    margin-right: auto;
 }
 
 .parent {
@@ -81,7 +128,7 @@ letter-spacing: 2px;
 	font-weight: bolder;
 	
   float: right;
-  color: white;
+  color: rgba(255,255,255,1.00);
   padding: 2% 4% 1% 1% ;
   text-decoration: none;
 	text-align: right;
@@ -92,7 +139,7 @@ letter-spacing: 2px;
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: rgb(255,255,255, 0.7);
+  color: #ffed00;
 }
 
 /* Add a color to the active/current link */
@@ -120,7 +167,7 @@ font-family: Open sans, sans-serif;
 
 /* Change the color of links on hover */
 .topnav2 a:hover {
-  color: rgb(0,0,0, 0.7);
+  color: #ffed00;
 }
 
 /* Add a color to the active/current link */
@@ -212,6 +259,58 @@ p{
 	padding-bottom: 18px;
 	
 }
+
+
+h2 {
+		padding-top:0; 
+		font-family: Open sans, sans-serif;
+		padding-bottom: 20px; 
+		font-size: 18px;
+		font-weight: 100 !important;
+		text-align: center;
+		color: white;
+	    line-height: 1.4;
+		padding-left: 10%;
+		padding-right: 10%;
+	
+}
+
+.center-block-main{
+	padding-bottom: 10%;
+	display: block;
+    margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+    margin-right: auto;	
+
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+
+.center-block{
+	margin-left: -10%;
+	margin-right: -10%;
+
+}
+h2 {
+ 	font-size: 15px;
+ 	margin-left: -10%;
+	margin-right: -10%;
+
+}
+	
+}
+@media screen and (max-width: 1170px) {
+	h2{
+	padding-left: 0;
+	padding-right: 0;
+		
+	}
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -219,7 +318,7 @@ p{
     max-width: 50%;
   }
 	
-	.column2 {
+.column2 {
     flex: 50%;
     max-width: 50%;
   }
@@ -231,6 +330,15 @@ h1{
 	font-weight:700;
 	font-size: 35px;
 }
+	
+	
+h2 {
+ 	font-size: 15px;
+ 	margin-left: -20%;
+	margin-right: -20%;
+	padding-left: 0;
+	padding-right: 0;
+}
 
 p{
 	font-family: Open Sans, sans-serif;
@@ -238,6 +346,10 @@ p{
 	font-size: 15px;
 	padding-bottom: 12px;
 	
+}
+.center-block{
+	margin-left: -20%;
+	margin-right: -20%;
 }
 }
 
@@ -261,6 +373,11 @@ h1{
 	
 }
 
+	h2 {
+	font-size: 12px;
+ 	
+}
+
 p{
 	font-family: Open Sans, sans-serif;
 	font-weight: 100;
@@ -268,31 +385,13 @@ p{
 	padding-bottom: 10px;
 	
 }
+	.center-block{
+	margin-left: -20%;
+	margin-right: -20%;
+}
 }
 
 
-
-
-
-
-
-
-/*
-.custom-toggler.navbar-toggler { 
-    border-color: lightgreen; 
-} 
-*/
-
-.center-block {
-	
-    display: block;
-    margin-left: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-    margin-right: auto; 
-	padding-bottom: 10%;
-
-}
 
 .imagesIS {
 	height: 100%;
@@ -330,7 +429,8 @@ p{
 			  width: 100%;
 			  opacity: 0;
 			  transition: .2s ease;
-			  background-color: rgba(6,6,6,0.5);
+			  background-color: rgba(6,6,6,0.5); 
+			  background-blend-mode: multiply;
 			}
 
 			.container:hover .overlay {
@@ -355,4 +455,8 @@ p{
 			}
 			
 			
-		</style>
+		
+
+
+
+

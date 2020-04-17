@@ -35,6 +35,35 @@ img {
   -webkit-touch-callout: none;
 }
 
+* {
+	box-sizing: border-box;
+}
+
+h6{
+	color: #FFF500; 
+	float: right; 
+	padding-top: ; 
+	font-family: Sofia pro, 
+	sans-serif; 
+	font-style: italic; 
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.box {
+	border: 6px solid #FFF500;
+	box-shadow: -15px 15px 0 -6px black, -15px 16px 0 0 #FFF500;
+	float:left;
+	margin-left: 40px;
+	margin-bottom: 40px;
+    width: 240px;
+	height: 240px;
+
+}
+
+
+	
+
 
 body {
 /*  background: url('http://2uwp1y1r9uts30evdq34yeb1-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/Sydne-Style-shows-where-to-get-affordable-white-abstract-paintings-for-home-decor-ideas.jpg') no-repeat center center fixed;*/
@@ -78,24 +107,6 @@ html {
   transform: translateY(-50%);
 }
 
-.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-/*	object-fit: cover;*/
-}
-
-.fullscreen-bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-	
-}
 
 
 
@@ -118,21 +129,21 @@ main {
 }
 .topnav {
   overflow: hidden;
+	  padding: 20px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-font-family: Open sans, sans-serif;
-letter-spacing: 2px;
-	text-transform: uppercase;
+font-family: Sofia pro, sans-serif;
+letter-spacing: 0;
 	font-weight: bolder;
-	
+	font-style: italic; 
   float: right;
   color: rgba(255,255,255,1.00);
-  padding: 2% 4% 1% 1% ;
+
   text-decoration: none;
 	text-align: right;
-  font-size: 80%;
+  font-size: 30px;
 }
 
 
@@ -214,8 +225,15 @@ font-family: Open sans, sans-serif;
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 33.3%;
-  max-width: 33.3%;
+  margin-right: -400px;
+
+
+}
+
+
+.footercol {
+  flex: 10%;
+  max-width: 10%;
   padding: 0;
 }
 
@@ -226,8 +244,8 @@ font-family: Open sans, sans-serif;
 }
 
 .column2 {
-  flex: 50%;
-  max-width: 50%;
+  flex: 30%;
+  max-width: 30%;
   padding: 0;
 }
 
@@ -245,15 +263,16 @@ responsive stuff */
 	margin-left: 20%;
 }
 
-h1{
-	font-family: Open Sans, sans-serif;
-	font-weight:700;
-	font-size: 45px;
+h5{
+	font-family: sofia pro, sans-serif;
+	font-weight: 900;
+	font-size: 100px;
+	color: #FFF500;
 	
 }
 
 p{
-	font-family: Open Sans, sans-serif;
+	font-family: sofia pro, sans-serif;
 	font-weight: 100;
 	font-size: 16px;
 	padding-bottom: 18px;
@@ -301,35 +320,83 @@ h2 {
 	margin-right: -10%;
 
 }
+	h5{
+		font-size: 100px;
+	}
 .iconresize {
 	padding-right: 0px;
 }
 	
 }
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1200px) {
 	h2{
 	padding-left: 0;
 	padding-right: 0;
 		
 	}
+	h5{
+		font-size: 90px;
+	}
 }
+
+@media screen and (max-width: 1100px) {
+	h2{
+	padding-left: 0;
+	padding-right: 0;
+		
+	}
+	h5{
+		font-size: 80px;
+	}
+	.footercol {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0;
+}
+	
+.footercol2 {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0;
+
+}
+	
+
+}
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+h6{
+
+	float: left;
+
+}
 	
 .column2 {
     flex: 50%;
     max-width: 50%;
   }
+.footercol {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0;
+}
 	
+.footercol2{
+flex: 100%;
+  max-width: 100%;
+  padding: 0;
+	}
 	
+	h5{
+		font-size: 70px;
+	}
 	
 h1{
-	font-family: Open Sans, sans-serif;
+	font-family: Sofia pro, sans-serif;
 	font-weight:700;
 	font-size: 35px;
 }
@@ -343,11 +410,6 @@ h2 {
 	padding-right: 0;
 }
 
-p{
-	font-family: Open Sans, sans-serif;
-	font-weight: 100;
-	font-size: 15px;
-	padding-bottom: 12px;
 	
 }
 .center-block{
@@ -356,21 +418,37 @@ p{
 }
 }
 
+@media screen and (max-width: 700px) {
+	h2{
+	padding-left: 0;
+	padding-right: 0;
+		
+	}
+	h5{
+		font-size: 40px;
+	}
+}
+
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+ 
+	h5{
+		font-size: 50px;
+	}
 	
+	.box{
+		margin-left: 0;
+		margin-right: 60px;
+	}
 	.column2 {
     flex: 100%;
     max-width: 100%;
   }
 	
 h1{
-	font-family: Open Sans, sans-serif;
+	font-family: Sofia pro, sans-serif;
 	font-weight:700;
 	font-size: 25px;
 	
@@ -381,13 +459,7 @@ h1{
  	
 }
 
-p{
-	font-family: Open Sans, sans-serif;
-	font-weight: 100;
-	font-size: 12px;
-	padding-bottom: 10px;
-	
-}
+
 	.center-block{
 	margin-left: -20%;
 	margin-right: -20%;
@@ -411,25 +483,20 @@ p{
 }
 
 
-.container {
-			  position: relative;
-			  width: 100%;
-				padding: 0;
-			}
 
-			.image {
+	.image {
 /*			  width: 100%;*/
 			  	
 			}
 
 			.overlay {
-			  position: absolute;
+/*			  position: absolute;*/
 			  top: 0;
 			  bottom: 0;
 			  left: 0;
 			  right: 0;
-			  height: 100%;
-			  width: 100%;
+			  height: 240px;
+			  width: 240px;
 			  opacity: 0;
 			  transition: .2s ease;
 			  background-color: rgba(6,6,6,0.5); 
@@ -444,7 +511,7 @@ p{
 			.text {
 			  color: white;
 			  font-size: 20px;
-			  font-family: Open sans, sans-serif;
+			  font-family: Sofia pro, sans-serif;
 			  letter-spacing: 1px;
 	          text-transform: uppercase;
 	          font-weight: bolder;
@@ -460,8 +527,26 @@ p{
 			
 		
 
+.fa {
+	color: white;
+	padding-right: 14px;
+	font-size: 22px;
+}
 
+.fa:hover {
+	color: #FFF500;
 
+}
 
+#footer {
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:60px;
+   padding-left: 35px;
+   background-color: black;
+}
 
-
+.imagesfixed {
+	float: right;
+}
